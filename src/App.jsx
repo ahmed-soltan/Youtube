@@ -10,7 +10,7 @@ import "./index.css";
 const App = () => {
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: "#111" }}>
+      <Box sx={{ backgroundColor: "#111" , height:"100%"}}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Feed />} />

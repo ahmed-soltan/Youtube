@@ -20,7 +20,6 @@ const VideoCard = ({
     <Card
       sx={{
         height: "280px",
-        width: "380px",
         overflow: "hidden",
         backgroundColor: "transparent",
       }}

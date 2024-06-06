@@ -23,7 +23,7 @@ const VideoDetail = () => {
   const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
 
   return (
-    <Box minHeight="95vh" width="90%" >
+    <Box minHeight="95vh" width="100%" >
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
@@ -35,7 +35,7 @@ const VideoDetail = () => {
               <Link to={`/channel/${channelId}`}>
                 <Typography variant={{ sm: "subtitle1", md: 'h6' }}  color="#fff" >
                   {channelTitle}
-                  <CheckCircleIcon sx={{ fontSize: "10px", color: "gray", ml: "5px" }} />
+                  <CheckCircleIcon sx={{ fontSize: "17px", color: "gray", ml: "5px" }} />
                 </Typography>
               </Link>
               <Stack direction="row" gap="20px" alignItems="center">
