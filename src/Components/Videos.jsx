@@ -6,7 +6,7 @@ import ChannelCard from "./ChannelCard";
 const Videos = ({ videos }) => {
   return (
     <Box>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} sx={{width:"100%"}}>
         {videos &&
           videos.map((item, idx) => (
             <Grid item key={idx} xs={12} sm={12} md={6} lg={3}>
